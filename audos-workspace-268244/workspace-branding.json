@@ -1,0 +1,147 @@
+{
+  "name": "Gauge",
+  "tagline": "Fast electrical answers, right on site.",
+  "businessPlan": "## Business Overview\nGauge\n\n## Customer Profile\nTarget customers identified from business context\n\n### Pain Points\n- Users come to Gauge because they need fast, reliable help with everyday electrical calculations while they’re estimating, troubleshooting, or working in the field. They want to reduce guesswork, avoid costly mistakes, confirm code-adjacent decisions, and move faster when calculating load sizing, voltage drop, phase identification, conduit/circuit basics, or wire-related math.\n\n## Key Problems\n- **Users come to Gauge because they need fast, reliab**: Users come to Gauge because they need fast, reliable help with everyday electrical calculations while they’re estimating, troubleshooting, or working in the field. They want to reduce guesswork, avoid costly mistakes, confirm code-adjacent decisions, and move faster when calculating load sizing, voltage drop, phase identification, conduit/circuit basics, or wire-related math.\n\n## Customer Journey\n## 1. USER GOALS\n\nUsers come to Gauge because they need fast, reliable help with everyday electrical calculations while they’re estimating, troubleshooting, or working in the field. They want to reduce guesswork, avoid costly mistakes, confirm code-adjacent decisions, and move faster when calculating load sizing, voltage drop, phase identification, conduit/circuit basics, or wire-related math.\n\n## 2. QUALIFYING QUESTIONS\n\n**What are you working on right now?**  \n1. A load sizing or service calculation  \n2. Voltage drop, wire size, or circuit math  \n3. Phase identification or color convention lookup  \n\n**How do you want Gauge to help?**  \n1. Give me a quick answer  \n2. Walk me through the calculation  \n3. Save or document the result for a job  \n\n## 3. JOURNEY NARRATIVE\n\nGauge should feel like a sharp jobsite assistant that understands electricians need answers quickly, not a long back-and-forth. A user may start by asking, “What’s the voltage drop on 120 feet of #8 copper?” or “What color is B phase on a 480V system?” The agent should first identify the task type, ask only for missing inputs, and then provide a clear answer with the formula, assumptions, and any important cautions.\n\nFor quick lookups, Gauge should respond immediately and keep the user moving. For calculations, it should guide the user through amperage, voltage, phase, conductor material, distance, load type, and tolerance. For contractors or estimators, it can help organize repeat calculations by job, room, panel, or circuit.\n\nOver time, the agent learns the user’s typical work: residential service upgrades, commercial panels, generator installs, EV chargers, industrial troubleshooting, or estimating. It should proactively suggest the next useful step, such as checking voltage drop after sizing a circuit, saving a result to a job, or generating a short calculation summary for documentation.\n\n## 4. APP SUPPORT MAP\n\nCreation tools help users generate calculation summaries, job notes, panel/circuit documentation, or estimate-ready outputs. Tracking tools are useful when users want to save repeated calculations by project, circuit, customer, or site, while automation tools should be recommended for contractors who repeatedly run the same calculation types and want templates, defaults, or reusable job profiles.\n\n## 5. COMMUNITY OPPORTUNITIES\n\nUsers would benefit from seeing common calculation templates, field-tested setup examples, and anonymized “how others solved this” references for things like EV charger installs, subpanel feeds, voltage drop scenarios, and phase/color conventions by region. Gauge could harness customer experience by allowing contractors to share verified templates, common project workflows, and practical notes that help newer users avoid repeat mistakes.\n\n## 6. MONETIZATION HOOK\n\nThe first payment moment should happen when Gauge saves the user real time on a real job: for example, it completes a voltage drop or load calculation, shows the assumptions clearly, then offers to save it into a clean job report or reusable project file. The free experience should prove the core value with quick calculators, color convention lookups, and a limited number of guided calculations.\n\nThe paid boundary should sit around professional workflow: saved projects, unlimited calculations, exportable reports, custom defaults, job templates, and team sharing. Pulling out a credit card feels natural when the user thinks, “I don’t just need the answer — I need to keep this, reuse it, and show it.” Ongoing subscription value comes from convenience and consistency: every job is organized, repeated calculations get faster, and contractors build a reliable record of their work instead of starting from scratch each time.\n\n## AI Tool Suite\n### Circuit Ledger\n**Purpose**: Save and manage load sizing, voltage drop, wire size, and basic circuit math results by job or circuit.\n**User Story**: I want to calculate and save electrical math by job so I can move fast and document my work.\n\n### Phase Lookup\n**Purpose**: Log and reference phase identification and electrical color conventions by voltage system, region, and jobsite.\n**User Story**: I want quick phase identification and color convention lookups so I can avoid mistakes in the field.\n\n---\n*Generated on 6/20/2026*\n",
+  "iconUrl": null,
+  "logoUrl": null,
+  "logoOnDarkUrl": null,
+  "colors": {
+    "primary": "#00a7ff",
+    "highlight": "#ff5a1f",
+    "contrast": "#22e6a8",
+    "secondary": "#ff5a1f",
+    "accent": "#22e6a8",
+    "primaryScale": {
+      "50": "#ebf8ff",
+      "100": "#d6f1ff",
+      "200": "#b8e6ff",
+      "500": "#009aeb",
+      "600": "#00a7ff",
+      "700": "#008cd6",
+      "900": "#006ea8"
+    },
+    "highlightScale": {
+      "50": "#fff2ed",
+      "100": "#ffe5db",
+      "200": "#ffd1c0",
+      "500": "#eb531d",
+      "600": "#ff5a1f",
+      "700": "#d64c1a",
+      "900": "#a83b14"
+    },
+    "surfaces": {
+      "page": "#f2fbff",
+      "pageAlt": "#e9fdf6",
+      "gradientFrom": "#f2fbff",
+      "gradientVia": "#e9fdf6",
+      "gradientTo": "#fff3ef",
+      "card": "#ffffff",
+      "cardHover": "#e9fdf6",
+      "panel": "#d7fbef",
+      "panelStrong": "#caf9ea",
+      "muted": "#fafdff",
+      "accentSoft": "#ffefe9",
+      "border": "#c7ecff",
+      "borderStrong": "#a8e1ff"
+    },
+    "text": {
+      "primary": "#002f47",
+      "secondary": "#005a8a",
+      "brand": "#002f47",
+      "accent": "#471909",
+      "muted": "#0075b3",
+      "onPrimary": "#111827",
+      "onHighlight": "#111827",
+      "onContrast": "#111827"
+    },
+    "semantic": {
+      "success": "#16a34a",
+      "warning": "#d97706",
+      "danger": "#dc2626"
+    },
+    "shell": {
+      "buttonText": "#111827",
+      "accentButtonText": "#111827",
+      "dockText": "#111827",
+      "icon": "#471909",
+      "shadow": "#b3e5ff",
+      "shadowStrong": "#8fd8ff"
+    }
+  },
+  "palette": {
+    "primary": "#00a7ff",
+    "highlight": "#ff5a1f",
+    "contrast": "#22e6a8",
+    "secondary": "#ff5a1f",
+    "accent": "#22e6a8",
+    "primaryScale": {
+      "50": "#ebf8ff",
+      "100": "#d6f1ff",
+      "200": "#b8e6ff",
+      "500": "#009aeb",
+      "600": "#00a7ff",
+      "700": "#008cd6",
+      "900": "#006ea8"
+    },
+    "highlightScale": {
+      "50": "#fff2ed",
+      "100": "#ffe5db",
+      "200": "#ffd1c0",
+      "500": "#eb531d",
+      "600": "#ff5a1f",
+      "700": "#d64c1a",
+      "900": "#a83b14"
+    },
+    "surfaces": {
+      "page": "#f2fbff",
+      "pageAlt": "#e9fdf6",
+      "gradientFrom": "#f2fbff",
+      "gradientVia": "#e9fdf6",
+      "gradientTo": "#fff3ef",
+      "card": "#ffffff",
+      "cardHover": "#e9fdf6",
+      "panel": "#d7fbef",
+      "panelStrong": "#caf9ea",
+      "muted": "#fafdff",
+      "accentSoft": "#ffefe9",
+      "border": "#c7ecff",
+      "borderStrong": "#a8e1ff"
+    },
+    "text": {
+      "primary": "#002f47",
+      "secondary": "#005a8a",
+      "brand": "#002f47",
+      "accent": "#471909",
+      "muted": "#0075b3",
+      "onPrimary": "#111827",
+      "onHighlight": "#111827",
+      "onContrast": "#111827"
+    },
+    "semantic": {
+      "success": "#16a34a",
+      "warning": "#d97706",
+      "danger": "#dc2626"
+    },
+    "shell": {
+      "buttonText": "#111827",
+      "accentButtonText": "#111827",
+      "dockText": "#111827",
+      "icon": "#471909",
+      "shadow": "#b3e5ff",
+      "shadowStrong": "#8fd8ff"
+    }
+  },
+  "typography": {
+    "font": "Space Grotesk",
+    "category": "sans-serif",
+    "weights": [
+      400,
+      700
+    ],
+    "headingFont": "Space Grotesk",
+    "bodyFont": "Space Grotesk"
+  },
+  "heroVideoUrl": null,
+  "workspaceId": "98e5292a-471e-41f5-8762-0d5620585cc9",
+  "configId": 268244
+}
